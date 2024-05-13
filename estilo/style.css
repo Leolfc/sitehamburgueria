@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+* {
+  
+  margin: 0 auto;
+  padding: 0;
+ 
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../imagens/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  max-height: max-content;
+  height: 500px;
+  color:rgb(248, 247, 247);
+  text-shadow: 2px 2px black;
+  padding: 100px;
+  
+}
+
+body > h3{
+  display: flex;
+  text-align: center;
+  padding: 30px
+}
+.cabecalho{
+  padding-top: 150px;
+  text-align: center;
+  font-size: 6.0em;
+}
+body .combos1{
+text-align:justify;
+margin: 70px;
+padding: 15px;
+
+}
+body > p{
+text-align: justify;
+}
+
+  
+
+header > p{
+  padding: 10px;
+  font-size: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: 2px 1px black;
+}
+
+
+h1 > p {
+  margin-top: 10px;
+}
+
+
+
+body {
+  background-color: rgb(20, 20, 20);
+  
+}
+#nav-bar{
+  display: block;
+}
+
+.menu {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 1px;
+  
+}
+.burgueres  {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  margin: 10px 100px 10px 100px;
+  
+ 
+}
+
+
+.burguers1 > li {
+  color: orangered;
+  font-size: 35px;
+  text-align: left;
+  
+}
+.burguers2 > li {
+  color: orangered;
+  font-size: 35px;
+ 
+ 
+  
+}
+#batata{
+  color: orangered;
+  font-size: 35px;
+ padding-top: 50px;
+}
+
+
+
+
+ li{
+  font-size: 35px;
+  color: orangered;
+  text-decoration: underline white;
+  padding: 10px;
+  
+}
+
+
+
+
+
+.combos1{
+  font-size: 45px;
+  color: white;
+  
+justify-content: space-between;
+
+}
+.combos1  li {
+  color: orangered;
+  font-size: 35px;
+ 
+  
+}
+
+
+
+.combos, li{
+  justify-content: space-between;
+  text-align: justify;
+ 
+}
+
+
+ section > h3 {
+  font-size: 45px;
+  color: white;
+
+ 
+  
+}
+#carrinho{
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  margin-right: 300px ;
+}
+.complementos {
+  text-align: justify;
+  font-size: 16px;
+  color: white;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+
+
+
+#combo{
+margin-top: 300px;
+padding-top: 50px;
+}
+
+#burguers2{
+  padding-top: 40px;
+}
+
+
+#adic{
+padding-top: 50px;
+}
+
+.valor{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: white;
+  text-decoration: none; 
+padding: 5px;
+  color: orangered;
+border: 2px solid black;
+border-radius: 10px;
+
+}
+.nav  {
+  padding-top: 70px;
+  margin-left: 15px;
+}
+.nav a {
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(22, 22, 22);
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid orangered;
+  background-color: white;
+
+}
+nav a:hover{
+  background-color: rgb(240, 101, 51);
+  
+}
+
+
+
+.valor:hover{
+  background-color: orangered;
+  color: white;
+}
+
+.rodape p  {
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  padding-top: 100px;
+}
+
+.rodape a {
+  color: white;
+}
