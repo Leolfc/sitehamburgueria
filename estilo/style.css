@@ -7,6 +7,8 @@
  
 }
 
+
+
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -221,13 +223,13 @@ nav a:hover{
   color: white;
 }
 
-.rodape p  {
-  font-size: 15px;
-  color: white;
-  text-align: left;
-  padding-top: 100px;
+footer{
+  margin-top: 80px;
 }
 
-.rodape a {
+footer a{
+  padding-left: 20px;
+  padding-bottom: 10px;
   color: white;
+  text-align: left;
 }
