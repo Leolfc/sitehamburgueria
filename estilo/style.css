@@ -1,54 +1,91 @@
 @charset "UTF-8";
 
 * {
-  
   margin: 0 auto;
   padding: 0;
- 
+ box-sizing: border-box;
 }
 
 
 
-body{
+body, html {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(20, 20, 20);
+
 }
 
+
+
+
+/* HEADER */
 .titulo {
-  font-family: Arial, Helvetica, sans-serif;
   background-image: url(../imagens/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg);
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(133, 133, 133);
+  width: 100%;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: max-content;
-  height: 500px;
-  color:rgb(248, 247, 247);
-  text-shadow: 2px 2px black;
-  padding: 100px;
+  margin-top: 50px;
+max-width: 2000px;
+min-height: 600px;
+
+}
+
+/* H1 DO HEADER */
+.cabecalho {
+  padding-top: 180px;
+  text-align: center;
+  color: white;
+  font-size: 5em;
+
+}
+
+#blocoprincipal{
+  margin: auto;
+}
+
+
+.menu{
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  font-size: 3.0em;
+}
+
+.burguer{
+  padding: 50px;
+  margin: auto;
+}
+
+
+
+
+section{
+display: flex;
   
 }
 
-body > h3{
-  display: flex;
-  text-align: center;
-  padding: 30px
-}
-.cabecalho{
-  padding-top: 150px;
-  text-align: center;
-  font-size: 6.0em;
-}
-body .combos1{
-text-align:justify;
-margin: 70px;
-padding: 15px;
 
-}
-body > p{
-text-align: justify;
+
+div{
+ padding-top: 50px;
+  
 }
 
+
+
+h3{
+  color: white;
+  font-size: 2.0em;
   
 
-header > p{
+}
+
+
+header > p {
   padding: 10px;
   font-size: 1.8em;
   font-family: Arial, Helvetica, sans-serif;
@@ -59,64 +96,10 @@ header > p{
 }
 
 
-h1 > p {
-  margin-top: 10px;
-}
 
-
-
-body {
-  background-color: rgb(20, 20, 20);
-  
-}
-#nav-bar{
-  display:block;
-}
-
-.menu {
-  margin-top: 90px;
-  text-align: center;
-  font-size: 50px;
-  color: white;
-  padding-top: 1px;
-  
-}
-.burgueres  {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 100px;
-  margin: 10px 100px 10px 100px;
-  
- 
-}
-
-
-.burguers1 > li {
+li {
+  font-size: 30px;
   color: orangered;
-  font-size: 35px;
-  text-align: left;
-  
-}
-.burguers2 > li {
-  color: orangered;
-  font-size: 35px;
- 
- 
-  
-}
-#batata{
-  color: orangered;
-  font-size: 35px;
- padding-top: 50px;
-}
-
-
-
-
- li{
-  font-size: 35px;
-  color: orangered;
-  text-decoration: underline white;
   padding: 10px;
   
 }
@@ -125,43 +108,15 @@ body {
 
 
 
-.combos1{
-  font-size: 45px;
-  color: white;
-  
-justify-content: space-between;
-
-}
-.combos1  li {
-  color: orangered;
-  font-size: 35px;
- 
-  
-}
-
-
-
-.combos, li{
-  justify-content: space-between;
-  text-align: justify;
- 
-}
-
-
- section > h3 {
-  font-size: 45px;
-  color: white;
-
- 
-  
-}
-#carrinho{
+#carrinho {
+  margin-top: 20px;
   padding: 20px 30px 20px 30px;
   display: flex;
-  margin-right: 300px ;
+  margin-right: 300px;
 }
+
 .complementos {
-  text-align: justify;
+
   font-size: 16px;
   color: white;
   padding-right: 30px;
@@ -170,36 +125,22 @@ justify-content: space-between;
 
 
 
-#combo{
-margin-top: 300px;
-padding-top: 50px;
-}
-
-#burguers2{
-  padding-top: 40px;
-}
 
 
-#adic{
-padding-top: 50px;
-}
 
-.valor{
+
+.valor {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: white;
   background-color: white;
-  text-decoration: none; 
-padding: 5px;
+  text-decoration: none;
+  padding: 5px;
   color: orangered;
-border: 2px solid black;
-border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
-}
-.nav  {
-  padding-top: 70px;
-  margin-left: 15px;
-}
 .nav a {
   border-radius: 10px;
   font-weight: bold;
@@ -209,25 +150,21 @@ border-radius: 10px;
   text-decoration: none;
   border: 3px solid orangered;
   background-color: white;
-
 }
-nav a:hover{
+nav a:hover {
   background-color: rgb(240, 101, 51);
-  
 }
 
-
-
-.valor:hover{
+.valor:hover {
   background-color: orangered;
   color: white;
 }
 
-footer{
+footer {
   margin-top: 80px;
 }
 
-footer a{
+footer a {
   padding-left: 20px;
   padding-bottom: 10px;
   color: white;
