@@ -20,18 +20,18 @@ body, html {
 /* HEADER */
 .titulo {
   background-image: url(../imagens/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg);
-  color: orangered;
+color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: rgb(133, 133, 133);
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   margin-top: 50px;
-max-width: 2000px;
-min-height: 600px;
-
+  max-width: 2000px;
+  min-height: 600px;
+  
+  
 }
 
 /* H1 DO HEADER */
@@ -39,9 +39,11 @@ min-height: 600px;
   padding-top: 180px;
   text-align: center;
   color: white;
-  font-size: 5em;
+  font-size: 4.5em;
 
 }
+
+
 
 #blocoprincipal{
   margin: auto;
