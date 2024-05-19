@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 * {
-  margin: 0 auto;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
  box-sizing: border-box;
 }
 
@@ -12,7 +12,7 @@ body, html {
 
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(20, 20, 20);
-
+  height: 10;
 }
 
 
@@ -21,20 +21,22 @@ body, html {
 /* HEADER */
 .titulo {
 background-image: url(../imagens/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg);
-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+text-shadow: 2px 2px 0px black;
+font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center center;
- background-size: cover; 
- padding: 100px 0px 100px 0px;
- max-width: 1000px;
- min-width: 320px;
+background-size: cover;
+padding: 250px;
+font-size: 1.5em;
+ 
 }
 
-
-
-
+.spacename{
+  font-size: 3.0em;
+  justify-content: space-between;
+}
 
 .menu{
   margin-bottom: 50px;
@@ -43,6 +45,16 @@ color: white;
   font-size: 3.0em;
 }
 
+.add{
+  display:flex;
+  margin-left: 50px;
+  
+}
+.smash h3{
+  display: flex;
+}
+
+
 .burguer{
   padding: 50px;
   margin: auto;
@@ -50,9 +62,9 @@ color: white;
 
 
 
-
 section{
-display: flex;
+  display: flex;
+
 
 }
 
@@ -97,10 +109,11 @@ li {
 
 
 #carrinho {
+  padding: 20px;
   margin-top: 20px;
-  padding: 20px 30px 20px 30px;
   display: flex;
-  margin-right: 300px;
+ margin-left: 80%;
+ 
 }
 
 .complementos {

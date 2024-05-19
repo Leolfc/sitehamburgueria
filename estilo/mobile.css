@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+@media screen and (orientation: portrait) {
+    section {
+flex-direction: column;
+}
+}
+
+
+@media screen and (orientation: portrait) {
+    #carrinho{
+        padding: 12px;
+        border-radius: 50%;
+       
+       
+        
+     
+    }
+}
+
+main{
+    padding: 10px;
+}
+
+.smash, .newburguer{
+    padding-left: 50px;
+}
+
+@media screen and (orientation: portrait) {
+    .titulo{
+ padding: 90px 20px 20px 20px;
+ font-size: 10px;
+ text-replace: auto;
+ margin: auto;
+ 
+    }
+}
+
+@media screen and (orientation: portrait){
+     .spacename > h1{
+    font-size: 30px;
+     
+    }
+}
+
+@media screen and (orientation: portrait){
+    .spacename > p{
+   font-size: 15px;
+    
+   }
+}
+
+
+
+@media screen and (orientation: portrait) {
+     .spacename{
+    
+    }
+}
+
+
+@media screen and (orientation: portrait) {
+    .nav{
+        padding-left: 20px;
+    }
+}
