@@ -2,8 +2,9 @@
 
 
 @media screen and (orientation: portrait) {
-    section {
+    section, div, h3{
 flex-direction: column;
+
 }
 }
 
@@ -29,9 +30,9 @@ main{
 
 @media screen and (orientation: portrait) {
     .titulo{
- padding: 90px 20px 20px 20px;
+ padding: 90px 20px 50px 20px;
  font-size: 10px;
- text-replace: auto;
+ 
  margin: auto;
  
     }
@@ -53,15 +54,15 @@ main{
 
 
 
-@media screen and (orientation: portrait) {
-     .spacename{
-    
-    }
-}
-
 
 @media screen and (orientation: portrait) {
     .nav{
         padding-left: 20px;
     }
+}
+
+@media screen and (orientation:portrait){
+#drinks, h3{
+margin-left: 10px;
+
 }

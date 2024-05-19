@@ -28,14 +28,18 @@ font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
   background-position: center center;
 background-size: cover;
-padding: 250px;
-font-size: 1.5em;
- 
+padding:300px 50px 300px 50px;
+margin: 10px 20px 10px 20px;
 }
 
 .spacename{
-  font-size: 3.0em;
-  justify-content: space-between;
+  font-size: 2.5em;
+  padding: 10px;
+ 
+ 
+}
+.spacename > p {
+  font-size: 0.8em;
 }
 
 .menu{
@@ -45,11 +49,7 @@ font-size: 1.5em;
   font-size: 3.0em;
 }
 
-.add{
-  display:flex;
-  margin-left: 50px;
-  
-}
+
 .smash h3{
   display: flex;
 }
@@ -60,11 +60,17 @@ font-size: 1.5em;
   margin: auto;
 }
 
+#drinks{
+  margin-left: 100px;
+}
+
+.add{
+  margin-left: 50px;
+}
 
 
 section{
   display: flex;
-
 
 }
 
@@ -77,11 +83,14 @@ div{
 
 
 
-h3{
+section  h3{
   color: white;
   font-size: 2.0em;
-  
-
+  border: 5px solid rgb(255, 187, 0);
+  border-radius: 12px;
+  padding: 10px;
+  margin-right: 50px;
+text-align: center;
 }
 
 
