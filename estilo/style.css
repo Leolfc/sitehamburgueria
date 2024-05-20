@@ -12,7 +12,8 @@ body, html {
 
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(20, 20, 20);
-  height: 10;
+  height: 100%;
+ 
 }
 
 
@@ -28,7 +29,7 @@ font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
   background-position: center center;
 background-size: cover;
-padding:300px 50px 300px 50px;
+padding:300px 40px 300px 50px;
 margin: 10px 20px 10px 20px;
 }
 
@@ -52,6 +53,7 @@ margin: 10px 20px 10px 20px;
 
 .smash h3{
   display: flex;
+  
 }
 
 
@@ -89,7 +91,7 @@ section  h3{
   border: 5px solid rgb(255, 187, 0);
   border-radius: 12px;
   padding: 10px;
-  margin-right: 50px;
+ margin-right: 100px;
 text-align: center;
 }
 
