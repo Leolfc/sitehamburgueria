@@ -203,3 +203,6 @@ margin: 10px;
   font-size: 12px;
   text-decoration: none;
 }
+.criador:hover{
+  color: rgb(93, 93, 241);
+}
