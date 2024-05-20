@@ -163,6 +163,10 @@ li {
   border: 3px solid orangered;
   background-color: white;
 }
+#nav-bar{
+  padding: 10px;
+}
+
 nav a:hover {
   background-color: rgb(240, 101, 51);
 }
