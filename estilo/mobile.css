@@ -73,3 +73,14 @@ margin-left: 10px;
 
 }
 }
+
+@media screen and (orientation: portrait) {
+    footer{
+       display: block; 
+       margin-top: 50px;
+       font-size: 12px;
+    }
+    .criador:hover{
+        color: rgb(93, 93, 241);
+    }
+}
