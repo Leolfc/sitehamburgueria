@@ -73,6 +73,7 @@ margin: 10px 20px 10px 20px;
 
 section{
   display: flex;
+ 
 
 }
 
@@ -112,6 +113,7 @@ li {
   font-size: 30px;
   color: orangered;
   padding: 10px;
+  list-style: none;
   
 }
 
