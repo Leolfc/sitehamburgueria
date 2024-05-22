@@ -126,7 +126,8 @@ li {
   margin-top: 20px;
   display: flex;
  margin-left: 80%;
- 
+ color: orangered;
+ border-radius: 50%;
 }
 
 .complementos {

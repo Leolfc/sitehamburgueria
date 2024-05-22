@@ -29,8 +29,9 @@ flex-direction: column;
         
     }
     #carrinho > a{
-        border-radius: 50%;
-        padding: 5px;
+       padding: 5px;
+       
+       
         
     }
 
