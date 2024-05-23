@@ -33,6 +33,11 @@ padding:300px 40px 300px 50px;
 margin: 10px 20px 10px 20px;
 }
 
+main#navegacao{
+  transition: width 1s, height 1s;
+}
+
+
 .spacename{
   font-size: 2.5em;
   padding: 10px;
@@ -74,8 +79,8 @@ margin: 10px 20px 10px 20px;
 section{
   display: flex;
  
-
 }
+
 
 
 
@@ -126,8 +131,11 @@ li {
   margin-top: 20px;
   display: flex;
  margin-left: 80%;
- color: orangered;
  border-radius: 50%;
+ height: 50%;
+}
+#carrinho > a{
+  border: 3px solid black;
 }
 
 .complementos {

@@ -26,10 +26,12 @@ flex-direction: column;
         margin-right: 10px;
         padding: 10px;
         border-radius: 50%;
+        height: 50%;
         
     }
     #carrinho > a{
        padding: 5px;
+       border: 2px solid black
        
        
         
@@ -95,3 +97,10 @@ margin-left: 10px;
         color: rgb(93, 93, 241);
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #navegacao{
+        width: 90vw;
+    }
+}
+
