@@ -8,7 +8,12 @@ flex-direction: column;
 }
 }
 
-
+#blocoprincipal > section{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+   
+}
 
 
 @media screen and (orientation: portrait) {
@@ -32,8 +37,6 @@ flex-direction: column;
     #carrinho > a{
        padding: 5px;
        border: 2px solid black
-       
-       
         
     }
 
@@ -46,13 +49,7 @@ flex-direction: column;
 
 
 
-main{
-    padding: 10px;
-}
-.smash, .newburguer{
- padding-left: 50px;
-      
-    }
+
 
 
 
@@ -81,11 +78,11 @@ main{
 }
 
 @media screen and (orientation:portrait){
-#drinks, h3{
-margin-left: 10px;
-
-}
-}
+    #drinks, h3{
+    margin-left: 10px;
+    
+    }
+    }
 
 @media screen and (orientation: portrait) {
     footer{
@@ -100,7 +97,9 @@ margin-left: 10px;
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #navegacao{
-        width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
     }
 }
 
