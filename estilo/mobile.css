@@ -6,7 +6,15 @@
 flex-direction: column;
 
 }
+
+div > h3{
+    font-size: 3.0em;
 }
+.lanche{
+    font-size: 2.5em;
+}
+}
+
 
 #blocoprincipal > section{
     width: 90vw;
@@ -22,9 +30,7 @@ flex-direction: column;
  font-size: 10px;
  margin: auto;
     }
-    .titulo, h1{
-      
-    }
+   
 }
 @media screen and (orientation: portrait) {
     #carrinho{
@@ -102,4 +108,3 @@ flex-direction: column;
         flex-direction: column;
     }
 }
-
