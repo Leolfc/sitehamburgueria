@@ -15,20 +15,16 @@ div > h3{
 .lanche{
     font-size: 2.4em;
 }
-
-
-
-div > h3{
-margin: auto;
-padding: 5px 3px 5px 3px;
+div h3{
+    padding: 10px;
 }
-
 }
 @media screen and (orientation: portrait) {
-    .titulo, section{
+    .titulo,section {
  padding: 90px 20px 30px 20px;
  font-size: 10px;
  margin: auto;
+ margin-top: 30px;
     }
    
 }
@@ -71,42 +67,28 @@ padding: 5px 3px 5px 3px;
     
    }
 }
-
-
-
-@media screen and (orientation: portrait) {
-    .nav{
-        padding-left: 20px;
-    }
-  
-}
-
-@media screen and (orientation:portrait){
-    #drinks, h3{
-    margin-left: 10px;
-    
-    }
-    }
-
 @media screen and (orientation: portrait) {
     footer{
-       display: block; 
+       
        margin-top: 50px;
        font-size: 12px;
     }
+
     .criador:hover{
         color: rgb(93, 93, 241);
     }
 }
 
-
-@media all and (min-width: 1000px) and (max-width: 1700px) {
-#conteiner{
-
-
-   
+@media only screen and (orientation: landscape) {
+ 
+    
+    #conteiner {
+      display: flex;
+      flex-flow: row wrap;
+    }
+  .burguers{
+    width: 80%;
   
-}
-  
+  }
 
-}
+  }

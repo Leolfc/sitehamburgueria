@@ -36,14 +36,17 @@ margin: 10px 20px 10px 20px;
 }
 
 #conteiner{
-display: flex;
-flex-flow: row nowrap;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+align-content: center;
+
+  
+  
+
 
 }
 .burguers{
-
+text-align: center;
 padding: 10px;
 }
 .spacename{
@@ -63,7 +66,9 @@ border: none;
 font-size: 4.0em;
 margin-bottom: 50px;
 }
-
+.menu:hover{
+  color: red;
+}
 
 
  h1, p,  h3{
@@ -79,7 +84,7 @@ h3{
   border: 5px solid rgb(255, 187, 0);
   border-radius: 12px;
   padding: 10px;
- margin-right: 100px;
+ 
 
 }
 
@@ -195,7 +200,7 @@ footer a, p{
  
 }
 footer a:hover{
-  color: rgb(216, 107, 68);
+  color: red;
 }
 
 
