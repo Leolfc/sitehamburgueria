@@ -29,22 +29,32 @@ font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
   background-position: center center;
 background-size: cover;
-padding:300px 40px 300px 50px;
+padding:280px 40px 300px 50px;
 margin: 10px 20px 10px 20px;
 }
 
-main#navegacao{
+main#conteiner{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
- 
 }
 
+#item{
+  display: flex;
+flex-wrap: nowrap;
+padding: 20px;
+width: 100%;
+}
 
+.burguers{
+  padding: 10px ;
+
+}
 .spacename{
   font-size: 2.5em;
   padding: 10px;
- 
+
  
 }
 .spacename > p {
@@ -70,27 +80,6 @@ main#navegacao{
   margin: auto;
 }
 
-#drinks{
-  margin-left: 100px;
-}
-
-.add{
-  margin-left: 50px;
-}
-
-
-section{
-  display: flex;
- 
-}
-
-
-
-
-div{
- padding-top: 50px;
-  
-}
 
 
 
@@ -177,6 +166,12 @@ li {
   border: 3px solid orangered;
   background-color: white;
 }
+
+
+.nav{
+  margin-top: 50px;
+}
+
 #nav-bar{
   padding: 10px;
 }

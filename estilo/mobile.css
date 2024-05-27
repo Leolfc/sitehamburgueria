@@ -16,12 +16,16 @@ div > h3{
 }
 
 
-#blocoprincipal > section{
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
+#blocoprincipal {
+    width: 100vw;
+ 
+
    
 }
+div > h3{
+  margin-right: 10px;
+}
+
 
 
 @media screen and (orientation: portrait) {
