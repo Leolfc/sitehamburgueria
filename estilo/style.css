@@ -4,8 +4,10 @@
   margin: 0px;
   padding: 0px;
  box-sizing: border-box;
-}
+} 
 
+
+    
 
 
 body, html {
@@ -33,23 +35,14 @@ padding:280px 40px 300px 50px;
 margin: 10px 20px 10px 20px;
 }
 
-main#conteiner{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+#conteiner{
+display: flex;
+flex-flow: row nowrap;
 
 }
-
-#item{
-  display: flex;
-flex-wrap: nowrap;
-padding: 20px;
-width: 100%;
-}
-
 .burguers{
-  padding: 10px ;
-
+flex: auto;
+padding: 10px;
 }
 .spacename{
   font-size: 2.5em;
@@ -59,27 +52,21 @@ width: 100%;
 }
 .spacename > p {
   font-size: 0.8em;
+ 
 }
 
 .menu{
-  margin-bottom: 50px;
-  color: white;
-  text-align: center;
-  font-size: 3.0em;
+ color: rgb(255, 255, 255);
+border: none;
+font-size: 4.0em;
 }
 
 
-.smash h3{
-  display: flex;
-  
+
+ h1, p,  h3{
+   
+font-family:"Poetsen One", sans-serif; 
 }
-
-
-.burguer{
-  padding: 50px;
-  margin: auto;
-}
-
 
 
 
@@ -106,12 +93,12 @@ header > p {
 
 
 
-li {
+.lanche{
   font-size: 30px;
   color: orangered;
   padding: 10px;
   list-style: none;
-  
+  font-weight: bold;
 }
 
 
@@ -184,6 +171,11 @@ nav a:hover {
   background-color: orangered;
   color: white;
 }
+
+#item > p{
+  font-family: "Poetsen One";
+}
+
 
 footer {
   margin-top: 80px;
