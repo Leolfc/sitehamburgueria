@@ -38,10 +38,12 @@ margin: 10px 20px 10px 20px;
 #conteiner{
 display: flex;
 flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
 
 }
 .burguers{
-flex: auto;
+
 padding: 10px;
 }
 .spacename{
@@ -59,6 +61,7 @@ padding: 10px;
  color: rgb(255, 255, 255);
 border: none;
 font-size: 4.0em;
+margin-bottom: 50px;
 }
 
 
@@ -70,14 +73,14 @@ font-family:"Poetsen One", sans-serif;
 
 
 
-section  h3{
+h3{
   color: white;
   font-size: 2.0em;
   border: 5px solid rgb(255, 187, 0);
   border-radius: 12px;
   padding: 10px;
  margin-right: 100px;
-text-align: center;
+
 }
 
 
@@ -108,13 +111,14 @@ header > p {
 #carrinho {
   padding: 20px;
   margin-top: 20px;
-  display: flex;
+
  margin-left: 80%;
  border-radius: 50%;
  height: 50%;
 }
 #carrinho > a{
   border: 3px solid black;
+display: flex;
 }
 
 .complementos {
