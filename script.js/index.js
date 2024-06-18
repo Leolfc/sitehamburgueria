@@ -1,1 +1,4 @@
-document.querySelector(".valor")
+const botao = document.querySelectorAll('.valor')
+
+
+
